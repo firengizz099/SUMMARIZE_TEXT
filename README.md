@@ -1,6 +1,6 @@
 # SUMMARIZE_TEXT_LLM
 **Bu kod, belirli bir PDF dosyasını indirip açarak metni özetlemek için Python dilinde yazılmıştır.**
-İlk olarak, gerekli Python kütüphanelerini içe aktarırız:
+**İlk olarak, gerekli Python kütüphanelerini içe aktarırız:**
 requests: Web üzerinden PDF dosyasını indirmek için kullanılır.
 openai: OpenAI API ile etkileşimde bulunmak için kullanılır.
 fitz: PyMuPDF kütüphanesi ile PDF dosyasını işlemek için kullanılır.
