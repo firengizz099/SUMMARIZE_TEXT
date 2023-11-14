@@ -11,7 +11,7 @@ Bu kod, belirli bir PDF dosyasını indirip açarak metni özetlemek için Pytho
 6) pdf_url: Özetlemek istediğiniz PDF dosyasının URL'sini içerir.
 download_and_open_pdf fonksiyonu, belirtilen PDF URL'sini indirir ve açar. Bu işlev aşağıdaki görevleri gerçekleştirir:
 7) requests.get(pdf_url): PDF dosyasını belirtilen URL'den indirir.
-**8) open("downloaded_pdf.pdf", "wb"): İndirilen PDF dosyasını yerel bir dosyaya kaydeder.**
+8) open("downloaded_pdf.pdf", "wb"): İndirilen PDF dosyasını yerel bir dosyaya kaydeder.
 9) fitz.open("downloaded_pdf.pdf"): PyMuPDF kullanarak PDF dosyasını açar.
 PDF dosyasının her sayfasındaki metni birleştirerek bir dize (pdf_text) oluşturur.
 pdf_text dizesini döndürür.
