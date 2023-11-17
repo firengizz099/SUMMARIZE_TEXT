@@ -2,7 +2,7 @@
 ![App Screenshot](https://github.com/firengizz099/SUMMARIZE_TEXT/blob/main/ylxiong_0-1628032473948.png?raw=true)
 
 **Bu kod, belirli bir PDF dosyasını indirip açarak metni özetlemek için Python dilinde yazılmıştır.**
-İlk olarak, gerekli Python kütüphanelerini içe aktarırız:
+**İlk olarak, gerekli Python kütüphanelerini içe aktarırız:**
 1) requests: Web üzerinden PDF dosyasını indirmek için kullanılır.
 2) openai: OpenAI API ile etkileşimde bulunmak için kullanılır.
 3) fitz: PyMuPDF kütüphanesi ile PDF dosyasını işlemek için kullanılır.
