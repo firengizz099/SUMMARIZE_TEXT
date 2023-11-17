@@ -5,7 +5,7 @@
 **İlk olarak, gerekli Python kütüphanelerini içe aktarırız:**
 **1) requests: Web üzerinden PDF dosyasını indirmek için kullanılır.**
 **2) openai: OpenAI API ile etkileşimde bulunmak için kullanılır.**
-3) fitz: PyMuPDF kütüphanesi ile PDF dosyasını işlemek için kullanılır.
+**3) fitz: PyMuPDF kütüphanesi ile PDF dosyasını işlemek için kullanılır.**
 4) API anahtarınızı ve hedef PDF dosyasının URL'sini belirtmelisiniz:
 5) api_key: OpenAI API'ye erişim sağlamak için kullanılacak API anahtarınızı içerir. Bu anahtarı OpenAI'den almalısınız.
 6) pdf_url: Özetlemek istediğiniz PDF dosyasının URL'sini içerir.
