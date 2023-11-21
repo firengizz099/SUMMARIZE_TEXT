@@ -19,7 +19,7 @@
 **openai.api_key = api_key: API anahtarını belirtilen anahtarla ayarlar.**
 **openai.Completion.create(...): OpenAI API'sini kullanarak metni özetler. Özetleme işlemi GPT-3.5 (Davinci) motorunu kullanır ve belirli parametreleri ayarlar.**
 **Özetlenmiş metni alır ve bu metni döndürür.**
-Ana program başlar ve aşağıdaki işleri yapar:
+**Ana program başlar ve aşağıdaki işleri yapar:**
 download_and_open_pdf(pdf_url): PDF dosyasını indirir ve açar, ardından pdf_text adlı bir metin dizesine kaydeder.
 10) (summarize_text(pdf_text): pdf_text metnini özetler ve sonucu pdf_summary adlı bir metin dizesine kaydeder.
 11) print("PDF Özeti:"): Özetlenmiş metni ekrana yazdırır.
