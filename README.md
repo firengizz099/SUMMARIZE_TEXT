@@ -14,7 +14,7 @@
 **8) open("downloaded_pdf.pdf", "wb"): İndirilen PDF dosyasını yerel bir dosyaya kaydeder.**
 **9) fitz.open("downloaded_pdf.pdf"): PyMuPDF kullanarak PDF dosyasını açar.**
 **PDF dosyasının her sayfasındaki metni birleştirerek bir dize (pdf_text) oluşturur.**
-pdf_text dizesini döndürür.
+**pdf_text dizesini döndürür.**
 summarize_text fonksiyonu, belirtilen metni özetlemek için OpenAI API'sini kullanır. Bu işlev aşağıdaki görevleri gerçekleştirir:
 openai.api_key = api_key: API anahtarını belirtilen anahtarla ayarlar.
 openai.Completion.create(...): OpenAI API'sini kullanarak metni özetler. Özetleme işlemi GPT-3.5 (Davinci) motorunu kullanır ve belirli parametreleri ayarlar.
