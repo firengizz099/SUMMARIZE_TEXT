@@ -22,5 +22,5 @@
 **Ana program başlar ve aşağıdaki işleri yapar:**
 **download_and_open_pdf(pdf_url): PDF dosyasını indirir ve açar, ardından pdf_text adlı bir metin dizesine kaydeder.**
 **10) (summarize_text(pdf_text): pdf_text metnini özetler ve sonucu pdf_summary adlı bir metin dizesine kaydeder.**
-11) print("PDF Özeti:"): Özetlenmiş metni ekrana yazdırır.
+**11) print("PDF Özeti:"): Özetlenmiş metni ekrana yazdırır.**
 with open("new_pdf.txt", "w"): Özetlenmiş metni "new_pdf.txt" adlı bir dosyaya kaydeder.
